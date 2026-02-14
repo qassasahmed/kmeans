@@ -1,4 +1,4 @@
-# K-Means Clustering Lab 🎯
+# K-Means Clustering Lab
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-1.5+-orange)
@@ -10,7 +10,7 @@
 
 ---
 
-## 📚 Table of Contents
+## Table of Contents
 
 - [Features](#-features)
 - [Project Structure](#-project-structure)
@@ -25,7 +25,7 @@
 
 ---
 
-## ✨ Features
+## Features
 
 - **Complete Theory Coverage**: Mathematical foundations, Lloyd's algorithm, convergence analysis
 - **From-Scratch Implementation**: Pure NumPy K-Means with K-Means++ initialization
@@ -37,7 +37,7 @@
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 kmeans/
@@ -61,11 +61,10 @@ kmeans/
 
 ---
 
-## 🚀 Installation
+## Installation
 
-### Prerequisites
-- Python 3.10 or higher
-- pip (Python package manager)
+> [!IMPORTANT]
+> **Prerequisites:** Python 3.10 or higher and pip package manager
 
 ### Setup
 
@@ -101,7 +100,7 @@ kmeans/
 
 ---
 
-## ⚡ Quick Start
+## Quick Start
 
 ### Run the Notebooks
 
@@ -122,9 +121,9 @@ Upload your CSV file and cluster interactively!
 
 ---
 
-## 📓 Notebooks
+## Notebooks
 
-### 1️⃣ [Theory Notebook](notebooks/01_theory.ipynb)
+### 1. [Theory Notebook](notebooks/01_theory.ipynb)
 **What you'll learn:**
 - What is clustering? (Unsupervised learning primer)
 - Lloyd's algorithm step-by-step
@@ -133,7 +132,7 @@ Upload your CSV file and cluster interactively!
 - Assumptions, pitfalls, and when K-Means fails
 - **Interactive animations** of centroid convergence
 
-### 2️⃣ [Implementation Notebook](notebooks/02_implementation.ipynb)
+### 2. [Implementation Notebook](notebooks/02_implementation.ipynb)
 **What you'll learn:**
 - Build K-Means from scratch (pure NumPy)
 - Compare with `sklearn.cluster.KMeans`
@@ -141,7 +140,7 @@ Upload your CSV file and cluster interactively!
 - Performance benchmarking
 - Elbow and silhouette analysis side-by-side
 
-### 3️⃣ [Real-World Examples](notebooks/03_real_world.ipynb)
+### 3. [Real-World Examples](notebooks/03_real_world.ipynb)
 **What you'll learn:**
 - **Customer Segmentation**: Group shoppers by spending patterns (Mall Customers dataset)
 - **Image Compression**: Reduce image size by 70% using color clustering
@@ -150,7 +149,7 @@ Upload your CSV file and cluster interactively!
 
 ---
 
-## 🎮 Interactive Demo
+## Interactive Demo
 
 ![Streamlit Demo](visuals/streamlit_demo.gif)
 
@@ -162,17 +161,17 @@ Upload your CSV file and cluster interactively!
 
 ---
 
-## 📊 Examples
+## Examples
 
 ### Customer Segmentation
 ![Customer Clusters](visuals/customer_segmentation.png)
 
 Identified 5 distinct customer groups:
-- 🎯 **High-Value Targets**: High income, high spending
-- 💼 **Conservative Savers**: High income, low spending
-- 🛍️ **Impulse Buyers**: Low income, high spending
-- 📊 **Average Shoppers**: Mid-range on all metrics
-- 🚶 **Window Shoppers**: Low engagement overall
+- **High-Value Targets**: High income, high spending
+- **Conservative Savers**: High income, low spending
+- **Impulse Buyers**: Low income, high spending
+- **Average Shoppers**: Mid-range on all metrics
+- **Window Shoppers**: Low engagement overall
 
 ### Image Compression
 ![Image Compression](visuals/image_compression.png)
@@ -184,7 +183,7 @@ Reduced a 24-bit RGB image to just 16 colors using K-Means:
 
 ---
 
-## 🧠 Theory Highlights
+## Theory Highlights
 
 ### The K-Means Algorithm
 
@@ -215,7 +214,7 @@ Where:
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Ideas:
 - Add more real-world examples (time series, NLP, genomics)
@@ -227,13 +226,13 @@ Please open an issue or submit a pull request.
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Datasets**: UCI Machine Learning Repository, scikit-learn
 - **Inspiration**: FreeCodeCamp, Real Python, Business Science tutorials
@@ -241,8 +240,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 📬 Contact
+## Contact
 
 Questions or feedback? Open an issue or reach out on [LinkedIn](https://linkedin.com/in/yourprofile).
 
-**⭐ Star this repo if you found it helpful!**
+> [!TIP]
+> Star this repo if you found it helpful!

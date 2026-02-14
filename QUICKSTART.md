@@ -85,12 +85,13 @@ The app will open in your browser at http://localhost:8501
 
 ## Troubleshooting
 
-### Import Errors in Notebooks
-
-If you see "Import 'kmeans' could not be resolved":
-1. Make sure your virtual environment is activated
-2. Run all cells in order from top to bottom
-3. Check that `sys.path.append('../src')` is executed
+> [!WARNING]
+> **Import Errors in Notebooks**
+>
+> If you see "Import 'kmeans' could not be resolved":
+> 1. Make sure your virtual environment is activated
+> 2. Run all cells in order from top to bottom
+> 3. Check that `sys.path.append('../src')` is executed
 
 ### Jupyter Not Opening
 
@@ -130,24 +131,26 @@ python
 >>> import pandas as pd
 >>> import sklearn
 >>> import plotly
->>> print("✅ All packages installed successfully!")
+>>> print("All packages installed successfully!")
 ```
 
 ## Next Steps
 
-- ✅ Run the notebooks in order
-- 🎨 Try the Streamlit app with your own CSV data
-- 📊 Experiment with different datasets
-- 🔧 Modify the K-Means implementation
-- 🚀 Share your results!
+- Run the notebooks in order
+- Try the Streamlit app with your own CSV data
+- Experiment with different datasets
+- Modify the K-Means implementation
+- Share your results!
 
 ## Need Help?
 
-- Check the [README.md](README.md) for detailed project documentation
-- Review individual README files in `src/`, `data/`, and `visuals/` folders
-- Check notebook markdown cells for explanations
-- Open an issue on GitHub
+> [!NOTE]
+> Useful resources:
+> - Check the [README.md](README.md) for detailed project documentation
+> - Review individual README files in `src/`, `data/`, and `visuals/` folders
+> - Check notebook markdown cells for explanations
+> - Open an issue on GitHub
 
 ---
 
-**Happy clustering! 🎯**
+**Happy clustering!**
